@@ -1,0 +1,22 @@
+test_best_sentence_can_be_in_later_passage (test_parsing.ParsingTests.test_best_sentence_can_be_in_later_passage) ... ok
+test_cached_prediction_is_stable (test_parsing.ParsingTests.test_cached_prediction_is_stable) ... ok
+test_compatible_sentence_survives_a_contradictory_distractor (test_parsing.ParsingTests.test_compatible_sentence_survives_a_contradictory_distractor) ... ok
+test_dependency_relations_have_lemmas_and_roles (test_parsing.ParsingTests.test_dependency_relations_have_lemmas_and_roles) ... ok
+test_empty_input_and_unrelated_evidence (test_parsing.ParsingTests.test_empty_input_and_unrelated_evidence) ... ok
+test_entity_name_and_pronoun_agree (test_parsing.ParsingTests.test_entity_name_and_pronoun_agree) ... ok
+test_explicit_negation_is_not_positive_support (test_parsing.ParsingTests.test_explicit_negation_is_not_positive_support) ... ok
+test_identical_supported_claim (test_parsing.ParsingTests.test_identical_supported_claim) ... ok
+test_invalid_dependency_weight_is_rejected (test_parsing.ParsingTests.test_invalid_dependency_weight_is_rejected) ... ok
+test_invalid_threshold_is_rejected_before_model_load (test_parsing.ParsingTests.test_invalid_threshold_is_rejected_before_model_load) ... ok
+test_lexical_backoff_can_join_compatible_sentences (test_parsing.ParsingTests.test_lexical_backoff_can_join_compatible_sentences) ... ok
+test_matching_negative_claim (test_parsing.ParsingTests.test_matching_negative_claim) ... ok
+test_missing_parser_has_actionable_message (test_parsing.ParsingTests.test_missing_parser_has_actionable_message) ... ok
+test_negative_claim_is_not_supported_by_positive_evidence (test_parsing.ParsingTests.test_negative_claim_is_not_supported_by_positive_evidence) ... ok
+test_reversal_is_rejected_at_the_deployed_hybrid_threshold (test_parsing.ParsingTests.test_reversal_is_rejected_at_the_deployed_hybrid_threshold) ... ok
+test_single_token_fallback (test_parsing.ParsingTests.test_single_token_fallback) ... ok
+test_subject_object_reversal_is_not_supported (test_parsing.ParsingTests.test_subject_object_reversal_is_not_supported) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.476s
+
+OK

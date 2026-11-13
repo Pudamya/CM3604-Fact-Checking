@@ -1,0 +1,30 @@
+{
+  "driver_byte_identical": true,
+  "driver_sha256": "5c40a1ec1a41cbdb8a9655377fe46cefcf2feceba57026a12d2a340eec5783b8",
+  "classifier_AST_identical": true,
+  "classifier_standalone_word_overlap_correct": 184,
+  "classifier_standalone_parsing_correct": 151,
+  "standalone_entailment_tiny_model_smoke": true,
+  "trained_entailment_cached_correct": 193,
+  "trained_entailment_full_inference_rerun": false,
+  "selftests_passed": 25,
+  "preprocessing_tests_passed": 36,
+  "parsing_tests_passed": 13,
+  "timing_subprocess_tiny_model_smoke": true,
+  "part2_seven_CSVs_byte_identical": true,
+  "part3_worksheets_identical_after_newline_normalization": true,
+  "part1_metrics_equivalent_excluding_runtime_and_float_roundoff": true,
+  "input_data_results_logs_figures_byte_preserved": true,
+  "python_3_10_syntax": true,
+  "python_runtime": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.0.2",
+    "torch": "2.5.0+cpu",
+    "spacy": "3.8.2",
+    "nltk": "3.9.1",
+    "transformers": "4.45.2",
+    "en-core-web-sm": "3.8.0",
+    "tqdm": "4.66.5"
+  }
+}

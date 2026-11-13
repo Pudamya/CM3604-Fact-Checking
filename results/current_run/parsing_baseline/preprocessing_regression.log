@@ -1,0 +1,41 @@
+test_accents_removed (test_m1.TestCleaningAndTokenisation.test_accents_removed) ... ok
+test_empty_and_none (test_m1.TestCleaningAndTokenisation.test_empty_and_none) ... ok
+test_lowercase_switch (test_m1.TestCleaningAndTokenisation.test_lowercase_switch) ... ok
+test_possessive_and_apostrophes (test_m1.TestCleaningAndTokenisation.test_possessive_and_apostrophes) ... ok
+test_punctuation_is_a_boundary (test_m1.TestCleaningAndTokenisation.test_punctuation_is_a_boundary) ... ok
+test_sentence_tags_removed (test_m1.TestCleaningAndTokenisation.test_sentence_tags_removed) ... ok
+test_split_sentences (test_m1.TestCleaningAndTokenisation.test_split_sentences) ... ok
+test_thousands_separator (test_m1.TestCleaningAndTokenisation.test_thousands_separator) ... ok
+test_cosine_edge_cases (test_m1.TestIdfMetrics.test_cosine_edge_cases) ... ok
+test_idf_sums_independent_of_order (test_m1.TestIdfMetrics.test_idf_sums_independent_of_order) ... ok
+test_idf_values (test_m1.TestIdfMetrics.test_idf_values) ... ok
+test_idf_weighted_recall (test_m1.TestIdfMetrics.test_idf_weighted_recall) ... ok
+test_term_frequency_counts_repeats (test_m1.TestIdfMetrics.test_term_frequency_counts_repeats) ... ok
+test_tfidf_cosine_running_example (test_m1.TestIdfMetrics.test_tfidf_cosine_running_example) ... ok
+test_empty_inputs (test_m1.TestSetMetrics.test_empty_inputs) ... ok
+test_matches_rouge1_recall (test_m1.TestSetMetrics.test_matches_rouge1_recall) ... ok
+test_properties_on_random_sets (test_m1.TestSetMetrics.test_properties_on_random_sets) ... ok
+test_repeated_words_do_not_change_set_metrics (test_m1.TestSetMetrics.test_repeated_words_do_not_change_set_metrics) ... ok
+test_running_example_values (test_m1.TestSetMetrics.test_running_example_values) ... ok
+test_all_stopword_fallback (test_m1.TestTextPreprocessor.test_all_stopword_fallback) ... ok
+test_cache_returns_copies (test_m1.TestTextPreprocessor.test_cache_returns_copies) ... ok
+test_negations_kept (test_m1.TestTextPreprocessor.test_negations_kept) ... ok
+test_normalizers (test_m1.TestTextPreprocessor.test_normalizers) ... ok
+test_repeated_words_kept_in_list (test_m1.TestTextPreprocessor.test_repeated_words_kept_in_list) ... ok
+test_running_example (test_m1.TestTextPreprocessor.test_running_example) ... ok
+test_short_tokens_dropped_but_digits_kept (test_m1.TestTextPreprocessor.test_short_tokens_dropped_but_digits_kept) ... ok
+test_stopwords_removed_before_stemming (test_m1.TestTextPreprocessor.test_stopwords_removed_before_stemming) ... ok
+test_aggregation_ordering_for_recall (test_m1.TestWordOverlapScore.test_aggregation_ordering_for_recall) ... ok
+test_checker_builds_without_arguments (test_m1.TestWordOverlapScore.test_checker_builds_without_arguments) ... ok
+test_drop_title (test_m1.TestWordOverlapScore.test_drop_title) ... ok
+test_empty_fact (test_m1.TestWordOverlapScore.test_empty_fact) ... ok
+test_invalid_arguments (test_m1.TestWordOverlapScore.test_invalid_arguments) ... ok
+test_missing_or_empty_passages (test_m1.TestWordOverlapScore.test_missing_or_empty_passages) ... ok
+test_running_example (test_m1.TestWordOverlapScore.test_running_example) ... ok
+test_scores_in_unit_interval (test_m1.TestWordOverlapScore.test_scores_in_unit_interval) ... ok
+test_word_order_invariance (test_m1.TestWordOverlapScore.test_word_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.857s
+
+OK

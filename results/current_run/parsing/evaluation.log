@@ -1,0 +1,14 @@
+# Optional parsing hybrid results
+
+Development accuracy: **185/221 = 83.71%**.
+
+Confusion matrix [TP FN; FP TN]: [86 26; 10 99].
+
+Score = 0.10 x dependency recall + 0.90 x lexical recall.
+Decision threshold: 0.5276785714285713.
+
+Grouped CV, fixed weight and retuned threshold: 80.00% (SD 1.59%).
+Grouped CV, weight AND threshold selected inside training folds: 80.00% (SD 1.59%).
+
+Both validations use 10 repeats x 5 folds grouped by biography. Zero-weight lexical-only and weight-one dependency-only endpoints are comparators, not eligible hybrid configurations. The final weight is chosen by fixed-configuration grouped CV, with full-dev accuracy as a tie-break; its final threshold is selected on all development facts. Weight-selection CV reports the separate held-out behavior of the training-fold selection procedure.
+Saved: /workspace/scratch/a13ec4c38088/hybrid_work/CM3604_Final_Project/results/current_run/parsing

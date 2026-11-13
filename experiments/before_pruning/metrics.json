@@ -1,0 +1,30 @@
+{
+  "configuration": "before_pruning",
+  "source": "exact replay of supplied real-model probability cache",
+  "cache_fingerprint": "9c4214be021fb3b8",
+  "facts": 221,
+  "correct": 188,
+  "accuracy": 0.8506787330316742,
+  "threshold": 0.436032310128212,
+  "fact_pruning_threshold": 0.0,
+  "evidence_pruning_threshold": 0.0,
+  "pruning_metric": "recall",
+  "confusion_matrix_gold_rows_S_NS": [
+    [
+      95,
+      17
+    ],
+    [
+      16,
+      93
+    ]
+  ],
+  "FP": 16,
+  "FN": 17,
+  "facts_pruned": 0,
+  "supported_facts_pruned": 0,
+  "pairs_before_early_exit": 10064,
+  "pairs_with_early_exit_batch_16": 6469,
+  "wall_time_seconds": null,
+  "peak_memory_MB": null
+}

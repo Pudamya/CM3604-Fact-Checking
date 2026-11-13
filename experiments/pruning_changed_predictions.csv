@@ -1,0 +1,16 @@
+index,fact,gold,before_pruning,with_pruning,improved
+2,Marianne McAndrew is a singer.,NS,S,NS,True
+9,"Gerhard Fischer invented the first handheld, battery-operated metal detector.",S,NS,S,True
+34,Tusa has been involved in various cultural initiatives.,NS,S,NS,True
+35,Tusa has worked to promote Palermo as a cultural destination.,NS,NS,S,False
+40,Jean Daullé was a printmaker.,NS,S,NS,True
+99,He served for many years as a pastor.,S,NS,S,True
+104,Hibo Wardere is based in the United Kingdom.,S,S,NS,False
+109,Nisar Ahmad Kakru was Kashmiri.,NS,S,NS,True
+122,He has worked as a researcher at various organizations.,NS,S,NS,True
+123,He has worked as a scientist at various organizations.,NS,S,NS,True
+149,Florencia Bertotti is an Argentinian.,S,S,NS,False
+161,Rio de Janeiro is in Brazil.,S,S,NS,False
+162,Haagensen began his acting career in theater.,S,S,NS,False
+168,Kerser is a songwriter.,NS,S,NS,True
+211,"He has since then starred in ""Save the Last Dance for Me."".",S,NS,S,True

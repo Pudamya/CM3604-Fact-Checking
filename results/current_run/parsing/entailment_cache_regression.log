@@ -1,0 +1,2 @@
+Reusing 221 cached facts from results/current_run/part2/unit_scores.jsonl
+PASS: original DeBERTa cache reproduces 193/221; no full pretrained inference rerun.

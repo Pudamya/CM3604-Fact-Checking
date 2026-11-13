@@ -1,0 +1,37 @@
+{
+  "driver_byte_identical": true,
+  "all_code_outside_parsing_class_AST_unchanged": true,
+  "existing_results_data_figures_preserved": true,
+  "Python_3_10_syntax": true,
+  "parser_tests_passed": 13,
+  "existing_selftests_passed": 25,
+  "preprocessing_tests_passed": 36,
+  "parsing_driver_correct": 151,
+  "word_overlap_driver_correct": 184,
+  "entailment_cached_regression_correct": 193,
+  "new_full_pretrained_entailment_inference": false,
+  "driver_sha256": "5c40a1ec1a41cbdb8a9655377fe46cefcf2feceba57026a12d2a340eec5783b8",
+  "changed_files": [
+    "experiments/README.md",
+    "experiments/VERIFICATION.md",
+    "factcheck.py",
+    "README.md",
+    "SETUP.md"
+  ],
+  "new_files": [
+    "experiments/parsing/README.md",
+    "experiments/parsing/evaluate_parsing.py",
+    "experiments/parsing/test_parsing.py",
+    "results/current_run/parsing/driver.log",
+    "results/current_run/parsing/entailment_cache_regression.log",
+    "results/current_run/parsing/evaluation.log",
+    "results/current_run/parsing/existing_selftests.log",
+    "results/current_run/parsing/parsing_tests.log",
+    "results/current_run/parsing/predictions.csv",
+    "results/current_run/parsing/preprocessing_regression.log",
+    "results/current_run/parsing/summary.json",
+    "results/current_run/parsing/summary.md",
+    "results/current_run/parsing/threshold_sweep.csv",
+    "results/current_run/parsing/word_overlap_regression.log"
+  ]
+}

@@ -1,0 +1,12 @@
+# Optional parsing classifier results
+
+Accuracy: **151/221 = 68.33%**.
+
+Confusion matrix [TP FN; FP TN]: [74 38; 32 77].
+
+Default dependency-recall threshold: 0.236111111111. Best full-dev threshold: 0.236111111111.
+
+Grouped cross-validation: 62.76% (SD 1.64%), 10 repeats x 5 folds grouped by person.
+Only the decision threshold is retuned on training people in each fold; held-out people are evaluated.
+
+Saved: /workspace/scratch/a13ec4c38088/parsing_work/CM3604_Final_Project/results/current_run/parsing

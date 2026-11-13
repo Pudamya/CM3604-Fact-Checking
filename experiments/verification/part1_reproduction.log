@@ -1,0 +1,30 @@
+Read 221 examples (112 S, 109 NS)
+Comparing metrics ...
+Preprocessing ablation ...
+  skipped stemming: spaCy lemmatiser: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to 
+Evaluating the chosen classifier ...
+# Part 1 experiment results
+
+Facts: 221 (112 S, 109 NS incl. IR), 32 people. AUC = ROC-AUC (threshold-free); CI = paired bootstrap 95% interval over facts (2000 resamples); delta = AUC minus the chosen configuration (recall, max over passages, chosen preprocessing). dev_acc = accuracy at the best threshold on all facts (optimistic); cv_acc = cross-validation grouped by person (10 repeats x 5 folds, threshold re-tuned on the training people).
+
+## Final classifier (what factchecking_main.py --mode word_overlap runs)
+
+Threshold 0.5635. Accuracy 184/221 = 83.26%. Confusion matrix [S: TP FN; NS: FP TN] = [86 26; 11 98]. S precision/recall/F1 0.887/0.768/0.823; NS 0.790/0.899/0.841. Grouped CV accuracy 80.32% +- 1.05.
+
+## Best aggregation of each metric
+
+| metric | aggregation | auc | auc_ci | delta_auc | delta_ci | significance | threshold | dev_acc | cv_acc | cv_acc_sd | mean_score_S | mean_score_NS |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| recall (= ROUGE-1 recall) | max | 0.8975 | [0.850, 0.937] | 0 | [0.000, 0.000] | reference | 0.5857 | 83.3% | 80.3% | 1.1% | 0.789 | 0.267 |
+| IDF-weighted recall | max | 0.8955 | [0.848, 0.936] | -0.002 | [-0.008, 0.004] | not significant | 0.342 | 83.7% | 79.2% | 1.6% | 0.758 | 0.231 |
+| TF-IDF cosine | sentence_max | 0.8843 | [0.839, 0.927] | -0.0132 | [-0.045, 0.018] | not significant | 0.2378 | 81.9% | 78.0% | 1.8% | 0.351 | 0.123 |
+| ROUGE-L recall | concat | 0.8828 | [0.831, 0.925] | -0.0147 | [-0.035, 0.004] | not significant | 0.4143 | 82.4% | 80.0% | 3.1% | 0.767 | 0.274 |
+| Jaccard | sentence_max | 0.7987 | [0.738, 0.854] | -0.0987 | [-0.150, -0.047] | worse | 0.1716 | 72.4% | 67.4% | 1.6% | 0.203 | 0.079 |
+| F1 | sentence_max | 0.7983 | [0.738, 0.854] | -0.0992 | [-0.150, -0.047] | worse | 0.2929 | 72.4% | 67.0% | 1.2% | 0.32 | 0.139 |
+| precision | max | 0.7585 | [0.691, 0.817] | -0.139 | [-0.199, -0.086] | worse | 0.0147 | 72.4% | 65.0% | 2.2% | 0.034 | 0.017 |
+| ROUGE-2 recall | max | 0.7436 | [0.680, 0.804] | -0.1539 | [-0.217, -0.089] | worse | 0.3542 | 70.6% | 66.7% | 1.8% | 0.356 | 0.095 |
+| BLEU-4 | sentence_max | 0.6653 | [0.591, 0.734] | -0.2322 | [-0.307, -0.163] | worse | 0 | 67.4% | 62.7% | 5.6% | 0.051 | 0.023 |
+
+## All metric / aggregation combinations
+
+Full results: ../verification_part1/summary.md

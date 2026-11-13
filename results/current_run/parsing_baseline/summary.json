@@ -1,0 +1,33 @@
+{
+  "source": "new spaCy dependency-parser inference on the supplied development data",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "spacy_version": "3.8.2",
+  "parser_model": "en_core_web_sm",
+  "parser_model_version": "3.8.0",
+  "threshold": 0.2361111111111111,
+  "best_dev_threshold": 0.2361111111111111,
+  "metrics": {
+    "TP": 74,
+    "FN": 38,
+    "FP": 32,
+    "TN": 77,
+    "accuracy": 0.6832579185520362,
+    "correct": 151,
+    "total": 221,
+    "S_precision": 0.6981132075471698,
+    "S_recall": 0.6607142857142857,
+    "S_f1": 0.6788990825688073,
+    "NS_precision": 0.6695652173913044,
+    "NS_recall": 0.7064220183486238,
+    "NS_f1": 0.6875,
+    "macro_f1": 0.6831995412844036
+  },
+  "grouped_cv_accuracy_mean": 0.6276018099547511,
+  "grouped_cv_accuracy_sd": 0.016391225323556143,
+  "cv_repeats": 10,
+  "cv_folds": 5,
+  "scoring_seconds_including_parsing": 4.9149981000082335,
+  "timing_excludes_model_load": true,
+  "parsed_text_cache_entries": 322
+}

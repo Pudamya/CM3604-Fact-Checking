@@ -1,0 +1,3 @@
+Reusing 221 cached facts from results/current_run/part2/unit_scores.jsonl
+Final classifier on the cached scores: 193/221 = 87.33%, [TP FN; FP TN] = [94 18; 10 99]
+10 false positives and 18 false negatives written to /workspace/scratch/a13ec4c38088/split_test_outputs/part3/error_worksheet.csv and /workspace/scratch/a13ec4c38088/split_test_outputs/part3/error_worksheet.md

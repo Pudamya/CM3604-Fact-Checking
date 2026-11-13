@@ -1,0 +1,5 @@
+config,final setting,final threshold,fold thresholds min/median/max,settings chosen in the 50 folds
+A,no pruning,0.436,0.325 / 0.436 / 0.965,no pruning (50)
+B,fact idf_recall>=0.25,0.2535,0.032 / 0.253 / 0.331,fact idf_recall>=0.34 (28); fact recall>=0.50 (5); fact tfidf_cosine>=0.05 (5)
+C,evidence lexical fuzzy_recall>=0.20,0.408,0.003 / 0.288 / 0.581,evidence lexical recall>=0.20 (21); evidence lexical recall>=0.34 (15); evidence lexical fuzzy_recall>=0.20 (11)
+D,"fact recall>=0.20, evidence safe recall>=0.20",0.325,0.003 / 0.010 / 0.649,"fact recall>=0.34, evidence safe recall>=0.25 (13); fact recall>=0.50, evidence lexical recall>=0.25 (11); fact fuzzy_recall>=0.30, evidence lexical fuzzy_recall>=0.20 (5)"

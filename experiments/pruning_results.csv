@@ -1,0 +1,4 @@
+configuration,correct,facts,accuracy,threshold,fact_pruning_threshold,evidence_pruning_threshold,FP,FN,facts_pruned,supported_facts_pruned,pairs_before_early_exit,pairs_with_early_exit_batch_16
+before_pruning,188,221,0.8506787330316742,0.436032310128212,0.0,0.0,16,17,0,0,10064,6469
+with_pruning,193,221,0.8733031674208145,0.2535,0.3,0.0,10,18,72,6,7113,3690
+unpruned_same_threshold,183,221,0.8280542986425339,0.2535,0.0,0.0,24,14,0,0,10064,6237

@@ -1,0 +1,3 @@
+Reusing 221 cached facts from results/current_run/part2/unit_scores.jsonl
+Existing trained DeBERTa cache replay: 193 / 221 0.8733031674208145
+No new full pretrained-model inference run was performed.

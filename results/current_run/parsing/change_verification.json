@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "method": "optional hybrid: 10% dependency recall, 90% lexical recall",
+  "original_dependency_baseline_correct": 151,
+  "new_hybrid_correct": 185,
+  "facts": 221,
+  "hybrid_confusion_matrix": [
+    [
+      86,
+      26
+    ],
+    [
+      10,
+      99
+    ]
+  ],
+  "selected_dependency_weight": 0.1,
+  "selected_threshold": 0.5276785714285713,
+  "training_fold_weight_threshold_selection_cv_accuracy": 0.8,
+  "cv_accuracy_sd": 0.01593377091552853,
+  "graded_core_code_and_defaults_AST_unchanged": true,
+  "driver_byte_identical": true,
+  "driver_sha256": "5c40a1ec1a41cbdb8a9655377fe46cefcf2feceba57026a12d2a340eec5783b8",
+  "experiment_runner_byte_identical": true,
+  "requirements_byte_identical": true,
+  "original_part1_part2_part3_logs_figures_data_preserved": true,
+  "baseline_parsing_artifacts_preserved": true,
+  "word_overlap_driver_correct": 184,
+  "entailment_cached_correct": 193,
+  "new_full_pretrained_entailment_inference_run": false,
+  "test_counts": {
+    "existing_selftests": 25,
+    "preprocessing": 36,
+    "parsing": 17,
+    "total": 78
+  },
+  "python_3_10_syntax": true,
+  "runtime": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}

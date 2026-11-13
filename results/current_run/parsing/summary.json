@@ -1,0 +1,53 @@
+{
+  "method": "hybrid dependency recall and lexical recall with structural sentence guards",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "spacy_version": "3.8.2",
+  "parser_model": "en_core_web_sm",
+  "parser_model_version": "3.8.0",
+  "threshold": 0.5276785714285713,
+  "dependency_weight": 0.1,
+  "lexical_weight": 0.9,
+  "best_dev_threshold": 0.5276785714285713,
+  "metrics": {
+    "TP": 86,
+    "FN": 26,
+    "FP": 10,
+    "TN": 99,
+    "accuracy": 0.8371040723981901,
+    "correct": 185,
+    "total": 221,
+    "S_precision": 0.8958333333333334,
+    "S_recall": 0.7678571428571429,
+    "S_f1": 0.8269230769230769,
+    "NS_precision": 0.792,
+    "NS_recall": 0.908256880733945,
+    "NS_f1": 0.8461538461538463,
+    "macro_f1": 0.8365384615384616
+  },
+  "fixed_weight_grouped_cv_accuracy": 0.8,
+  "fixed_weight_grouped_cv_sd": 0.01593377091552853,
+  "weight_and_threshold_grouped_cv_accuracy": 0.8,
+  "weight_and_threshold_grouped_cv_sd": 0.01593377091552853,
+  "training_fold_weight_choices": {
+    "0.1": 49,
+    "0.2": 1
+  },
+  "training_fold_threshold_min": 0.3671428571428572,
+  "training_fold_threshold_max": 0.5500595238095238,
+  "cv_repeats": 10,
+  "cv_folds": 5,
+  "candidate_dependency_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.75
+  ],
+  "recommended_dependency_weight": 0.1,
+  "recommended_threshold": 0.5276785714285713,
+  "scoring_seconds_including_parsing": 7.796467499996652,
+  "timing_excludes_model_load": true,
+  "parsed_text_cache_entries": 322
+}
