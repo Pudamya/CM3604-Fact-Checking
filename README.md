@@ -68,10 +68,6 @@ The experiment runner defaults to the included `results/current_run/` directorie
 
 In `factcheck.py`, find `PART 2: ENTAILMENT CLASSIFIER AND PRUNING`, then `PRUNING SETTINGS`. `_prepare()` is marked `FACT-LEVEL PRUNING`; `plan_evidence()` is marked `EVIDENCE-LEVEL PRUNING`. Changing the optional parsing classifier does not change entailment or word overlap.
 
-## Submission scope
-
-The specification asks for separate submission of `factcheck.py` and the written PDF. The classifier file is standalone; keep the experiment runner, tests and evidence in the project as supporting material. A completed written-submission PDF is not included. Part 3 category and notes fields still require manual completion. The split finalizes code organization, not the missing written analysis or a guaranteed grade. Follow the supplied specification's GenAI category and acknowledgement requirements.
-
 ## Updated optional parsing mode
 
 `--mode parsing` now selects the dependency-and-lexical hybrid. The class name stays `DependencyRecallThresholdFactChecker` for compatibility with the unchanged supplied driver. The hybrid uses the existing lexical scorer without modifying it, and filters candidate sentences with explicit incompatible negation or directly reversed subject/object roles before scoring.
